@@ -13,6 +13,8 @@
 		6532773D20DC4A0E00E0660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6532773C20DC4A0E00E0660A /* Assets.xcassets */; };
 		6532774020DC4A0E00E0660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6532773E20DC4A0E00E0660A /* LaunchScreen.storyboard */; };
 		6532774B20DD69F100E0660A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6532774A20DD69F100E0660A /* CategoryCell.swift */; };
+		6532774D20DD85BB00E0660A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6532774C20DD85BB00E0660A /* Category.swift */; };
+		6532775020DD939000E0660A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6532774F20DD939000E0660A /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6532773F20DC4A0E00E0660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6532774120DC4A0E00E0660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6532774A20DD69F100E0660A /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		6532774C20DD85BB00E0660A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6532774F20DD939000E0660A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		6532773420DC4A0B00E0660A /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				6532774E20DD935C00E0660A /* Services */,
 				6532774920DD67E700E0660A /* View */,
 				6532774820DD679A00E0660A /* Model */,
 				6532774720DD678D00E0660A /* Controller */,
@@ -79,6 +84,7 @@
 		6532774820DD679A00E0660A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6532774C20DD85BB00E0660A /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				6532774A20DD69F100E0660A /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6532774E20DD935C00E0660A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6532774F20DD939000E0660A /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				6532773820DC4A0B00E0660A /* CategoriesVC.swift in Sources */,
 				6532773620DC4A0B00E0660A /* AppDelegate.swift in Sources */,
 				6532774B20DD69F100E0660A /* CategoryCell.swift in Sources */,
+				6532774D20DD85BB00E0660A /* Category.swift in Sources */,
+				6532775020DD939000E0660A /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
