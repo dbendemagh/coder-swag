@@ -84,17 +84,17 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="Sj5-Js-2Ku"/>
                     <connections>
                         <outlet property="categoryTable" destination="gGA-0p-YBG" id="ioK-BW-tb9"/>
-                        <segue destination="Scu-3W-Oe5" kind="show" id="GHy-S4-QRv"/>
+                        <segue destination="Scu-3W-Oe5" kind="show" identifier="ProductsVC" id="GHy-S4-QRv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="961" y="117"/>
+            <point key="canvasLocation" x="959" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="PHC-Nm-Ace">
             <objects>
-                <viewController id="Scu-3W-Oe5" sceneMemberID="viewController">
+                <viewController id="Scu-3W-Oe5" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6J1-CI-OYG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,6 +183,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9b0-sR-VjU"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="vsG-YQ-8bM" id="UvQ-dz-hji"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gsC-xV-PGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
